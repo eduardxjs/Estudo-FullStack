@@ -1,0 +1,97 @@
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.link-header{
+    background: none;      
+    
+}
+
+.links{
+    color:#000000;
+    display: inline-block;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    background-color: #DFA;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+  
+}
+.links:hover{
+    background-color: rgba(2, 65, 23, 0.6);
+    transition: 0.8s ease-in-out;
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container{
+    display: block;
+    margin: 50px 200px;
+    text-indent: 5px;
+}
+
+
+.container span,p{
+    color: #242b33;
+    font-size: 1rem;
+    line-height: 1.5;
+    
+    
+}
+.secao-formacao{
+    background-color: gray;
+    /** border-top: 1px solid black; **/
+    margin-bottom: 5px;
+}
+
+.secao-experience-profisional{
+    background-color: gray;
+    border-top: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.secao-habilidades-competencias{
+    background-color: gray;
+    border-top: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.secao-projetos{
+    background-color: gray;
+    border-top: 1px solid  black;
+    margin-bottom: 5px;
+}
+
+.secao-contato{
+    background-color: gray;
+    border-top: 1px solid black;
+}
